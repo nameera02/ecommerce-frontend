@@ -7,17 +7,21 @@ const AdminNavbar = () => {
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Heading size="md" color="white">Admin Dashboard</Heading>
         <HStack spacing={4}>
-          <Button as={RouterLink} to="/dashboard" colorScheme="teal" variant="ghost">
-            Dashboard
-          </Button>
+
           <Button as={RouterLink} to="/projects" colorScheme="teal" variant="ghost">
             Projects
           </Button>
-          <Button as={RouterLink} to="/blog" colorScheme="teal" variant="ghost">
-            Blog
+          <Button as={RouterLink} to="/products" colorScheme="teal" variant="ghost">
+            Products
           </Button>
-          <Button as={RouterLink} to="/contact" colorScheme="teal" variant="ghost">
-            Contacts
+          <Button as={RouterLink} to="/certificates" colorScheme="teal" variant="ghost">
+          Certificate
+          </Button>
+          <Button as={RouterLink} to="/clients" colorScheme="teal" variant="ghost">
+          Clients
+          </Button>
+          <Button as={RouterLink} to="/teams" colorScheme="teal" variant="ghost">
+          Teams
           </Button>
         </HStack>
       </Flex>
